@@ -16,11 +16,7 @@ class MoreViewController: UITableViewController {
 
         self.title = "更多"
         showArray = ["我的收藏","修改密码","二维码名片","版本信息","意见反馈"]
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
