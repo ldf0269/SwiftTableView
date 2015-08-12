@@ -31,6 +31,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
         tableView.dataSource = self
         tableView.delegate = self
+        
         navigationItem.leftBarButtonItem = editButtonItem()
         tableView.frame = CGRectMake(0, -searchDisplayController!.searchBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height)
         var contentOffSet = tableView.contentOffset
