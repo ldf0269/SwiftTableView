@@ -15,7 +15,7 @@ class MoreViewController: UITableViewController {
         super.viewDidLoad()
 
         self.title = "更多"
-        showArray = ["我的收藏","修改密码","二维码名片","版本信息","意见反馈"]
+        showArray = ["动画","修改密码","二维码名片","版本信息","意见反馈"]
 
     }
 
@@ -44,7 +44,9 @@ class MoreViewController: UITableViewController {
     }
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("-----点击了第\(indexPath.row)行-------")
+        var toVc = AnimateViewController()
+        toVc.fromVc = showArray[indexPath.row] as? String
+        self.navigationController?.pushViewController(toVc, animated: true)
     }
-
 
 }

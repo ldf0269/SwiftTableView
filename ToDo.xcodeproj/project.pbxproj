@@ -18,6 +18,7 @@
 		27985A0D1B79F3060049F015 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985A0C1B79F3060049F015 /* ToDoTests.swift */; };
 		27985A171B79F5600049F015 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985A161B79F5600049F015 /* ToDoModel.swift */; };
 		27985A251B7A195D0049F015 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985A241B7A195D0049F015 /* AddViewController.swift */; };
+		27AA06F71B84699D00B9C0FF /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA06F61B84699D00B9C0FF /* AnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		27985A0C1B79F3060049F015 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
 		27985A161B79F5600049F015 /* ToDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 		27985A241B7A195D0049F015 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		27AA06F61B84699D00B9C0FF /* AnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				274440AF1B7B170900FC791D /* CollectionViewController.swift */,
 				274440AD1B7B160400FC791D /* MoreViewController.swift */,
 				27985A241B7A195D0049F015 /* AddViewController.swift */,
+				27AA06F61B84699D00B9C0FF /* AnimateViewController.swift */,
 				27985A161B79F5600049F015 /* ToDoModel.swift */,
 				279859FA1B79F3060049F015 /* Main.storyboard */,
 				279859FD1B79F3060049F015 /* Images.xcassets */,
@@ -231,6 +234,7 @@
 				279859F71B79F3060049F015 /* AppDelegate.swift in Sources */,
 				27985A251B7A195D0049F015 /* AddViewController.swift in Sources */,
 				274440AE1B7B160400FC791D /* MoreViewController.swift in Sources */,
+				27AA06F71B84699D00B9C0FF /* AnimateViewController.swift in Sources */,
 				274440B01B7B170900FC791D /* CollectionViewController.swift in Sources */,
 				274440AC1B7B159900FC791D /* FavouriteViewController.swift in Sources */,
 				27985A171B79F5600049F015 /* ToDoModel.swift in Sources */,
